@@ -1,207 +1,207 @@
-# ?? Guia Rápido de Uso - App CAA Luiza
+ï»¿# Guia RÃ¡pido de Uso - App CAA Luiza
 
-## ?? Como Usar o Aplicativo
+## Como Usar o Aplicativo
 
-### Tela Principal - Comunicação
+### Tela Principal - ComunicaÃ§Ã£o
 
-#### 1?? **Selecionar Pictogramas**
-- Toque em qualquer pictograma para adicioná-lo à sua mensagem
-- Os pictogramas selecionados aparecerão na área "Sua mensagem"
-- A frase será montada automaticamente
+#### 1ï¸âƒ£ **Selecionar Pictogramas**
+- Toque em qualquer pictograma para adicionÃ¡-lo Ã  sua mensagem
+- Os pictogramas selecionados aparecerÃ£o na Ã¡rea "Sua mensagem"
+- A frase serÃ¡ montada automaticamente
 
-#### 2?? **Remover Pictogramas**
-- Toque no pictograma na área "Sua mensagem" para removê-lo
-- Ou use o botão "Limpar" para remover todos
+#### 2ï¸âƒ£ **Remover Pictogramas**
+- Toque no pictograma na Ã¡rea "Sua mensagem" para removÃª-lo
+- Ou use o botÃ£o "Limpar" para remover todos
 
-#### 3?? **Falar a Mensagem**
-- Toque no botão "Falar" (vermelho)
-- O app falará a mensagem em português
+#### 3ï¸âƒ£ **Falar a Mensagem**
+- Toque no botÃ£o "Falar" (vermelho)
+- O app falarÃ¡ a mensagem em portuguÃªs
 
-#### 4?? **Limpar Tudo**
-- Toque no botão "Limpar" (cinza)
-- Todos os pictogramas serão removidos
+#### 4ï¸âƒ£ **Limpar Tudo**
+- Toque no botÃ£o "Limpar" (cinza)
+- Todos os pictogramas serÃ£o removidos
 
-### Tela de Histórico
+### Tela de HistÃ³rico
 
-- Navegue para a aba "Histórico"
-- Veja todas as comunicações anteriores
-- Cada registro mostra a frase e o horário
+- Navegue para a aba "HistÃ³rico"
+- Veja todas as comunicaÃ§Ãµes anteriores
+- Cada registro mostra a frase e o horÃ¡rio
 
 ---
 
-## ?? Categorias Disponíveis
+## ğŸ—‚ï¸ Categorias DisponÃ­veis
 
-### ?? Pedidos (Vermelho)
-Para pedir coisas e ações:
-- Água, Comida, Brincar, Desenhar
-- Música, Descansar, Ajuda, Banheiro
+### ğŸ›’ Pedidos (Vermelho)
+Para pedir coisas e aÃ§Ãµes:
+- ğŸ’§ Ãgua, ğŸ” Comida, ğŸ§¸ Brincar, ğŸ¨ Desenhar
+- ğŸµ MÃºsica, ğŸ˜´ Descansar, ğŸ™ Ajuda, ğŸš½ Banheiro
 
-### ?? Socialização (Turquesa)
+### ğŸ¤ SocializaÃ§Ã£o (Turquesa)
 Para interagir com pessoas:
-- Olá, Tchau, Obrigada
-- Por favor, Legal!, Não gosto
+- ğŸ‘‹ OlÃ¡, ğŸ‘‹ Tchau, ğŸ™ Obrigada
+- ğŸ™ Por favor, ğŸ‘ Legal!, ğŸ‘ NÃ£o gosto
 
-### ?? Informação (Amarelo)
+### â„¹ï¸ InformaÃ§Ã£o (Amarelo)
 Para expressar sentimentos:
-- Sim, Não, Gosto, Cansada
-- Feliz, Triste, Dói, Medo
+- âœ… Sim, âŒ NÃ£o, â¤ï¸ Gosto, ğŸ˜´ Cansada
+- ğŸ˜Š Feliz, ğŸ˜¢ Triste, ğŸ¤• DÃ³i, ğŸ˜¨ Medo
 
-### ?? Rotina (Verde)
+### ğŸ“… Rotina (Verde)
 Para o dia a dia:
-- Manhã, Tarde, Noite
-- Escola, Casa, Banho, Dormir
+- â˜€ï¸ ManhÃ£, ğŸŒ‡ Tarde, ğŸŒ™ Noite
+- ğŸ« Escola, ğŸ  Casa, ğŸ›€ Banho, ğŸ˜´ Dormir
 
 ---
 
-## ?? Dicas para Uso com Luiza
+## ğŸ’¡ Dicas para Uso com Luiza
 
-### ? Boas Práticas
+### ğŸ‘ Boas PrÃ¡ticas
 1. **Reforce o uso positivo**: Elogie quando ela usar o app
-2. **Use em situações reais**: Durante as atividades diárias
+2. **Use em situaÃ§Ãµes reais**: Durante as atividades diÃ¡rias
 3. **Combine com gestos**: Aponte, mostre, olhe junto
-4. **Seja paciente**: Dê tempo para ela processar
+4. **Seja paciente**: DÃª tempo para ela processar
 5. **Torne divertido**: Use tons de voz variados ao falar as frases
 
-### ?? Estratégias Específicas
+### ğŸ§© EstratÃ©gias EspecÃ­ficas
 
 #### Para Pedidos
 - Mostre o objeto real junto com o pictograma
 - Reforce quando ela conseguir fazer pedidos
 
-#### Para Socialização
-- Use em momentos de chegada e saída
+#### Para SocializaÃ§Ã£o
+- Use em momentos de chegada e saÃ­da
 - Pratique cumprimentos com familiares
 
-#### Para Emoções
+#### Para EmoÃ§Ãµes
 - Valide os sentimentos dela
-- Use espelho de emoções (mostre sua cara fazendo a emoção)
+- Use espelho de emoÃ§Ãµes (mostre sua cara fazendo a emoÃ§Ã£o)
 
 #### Para Rotina
-- Use como preparação para transições
+- Use como preparaÃ§Ã£o para transiÃ§Ãµes
 - Mostre antes de cada atividade
 
 ---
 
-## ?? Configurações e Ajustes
+## âš™ï¸ ConfiguraÃ§Ãµes e Ajustes
 
-### Volume
+### ğŸ”Š Volume
 - Ajuste o volume do dispositivo antes de usar
-- Teste a síntese de voz regularmente
+- Teste a sÃ­ntese de voz regularmente
 
-### Visibilidade
+### ğŸ‘€ Visibilidade
 - Use em local bem iluminado
 - Mantenha a tela limpa
 
-### Posicionamento
+### ğŸ“ Posicionamento
 - Coloque o tablet/celular na altura dos olhos dela
-- Deixe espaço para ela tocar confortavelmente
+- Deixe espaÃ§o para ela tocar confortavelmente
 
 ---
 
-## ?? Acompanhamento de Progresso
+## ğŸ“Š Acompanhamento de Progresso
 
 ### O que Observar
-- ? Frequência de uso espontâneo
-- ? Variedade de categorias usadas
-- ? Combinação de pictogramas
-- ? Tentativas de comunicação verbal junto
+- ğŸ”„ FrequÃªncia de uso espontÃ¢neo
+- ğŸ—‚ï¸ Variedade de categorias usadas
+- ğŸ§© CombinaÃ§Ã£o de pictogramas
+- ğŸ—£ï¸ Tentativas de comunicaÃ§Ã£o verbal junto
 
 ### Quando Registrar
-- Situações de uso bem-sucedido
-- Novas combinações de pictogramas
-- Momentos de frustração (para adaptar)
-- Preferências emergentes
+- SituaÃ§Ãµes de uso bem-sucedido
+- Novas combinaÃ§Ãµes de pictogramas
+- Momentos de frustraÃ§Ã£o (para adaptar)
+- PreferÃªncias emergentes
 
 ---
 
-## ?? Resolução de Problemas
+## ğŸ› ï¸ ResoluÃ§Ã£o de Problemas
 
-### Luiza não quer usar o app
-- ? Não force o uso
-- ? Torne lúdico, use como "jogo"
-- ? Deixe ela explorar livremente primeiro
-- ? Use durante atividades que ela gosta
+### Luiza nÃ£o quer usar o app
+- ğŸš« NÃ£o force o uso
+- ğŸ² Torne lÃºdico, use como "jogo"
+- ğŸ•¹ï¸ Deixe ela explorar livremente primeiro
+- ğŸ¶ Use durante atividades que ela gosta
 
-### Som não funciona
+### Som nÃ£o funciona
 - Verifique volume do dispositivo
 - Verifique modo silencioso
 - Reinicie o app
 
-### App está lento
+### App estÃ¡ lento
 - Feche outros aplicativos
 - Reinicie o dispositivo
-- Limpe o histórico
+- Limpe o histÃ³rico
 
 ### Pictogramas pequenos demais
-- Use em tablet ao invés de celular
+- Use em tablet ao invÃ©s de celular
 - Ajuste o zoom do dispositivo (acessibilidade)
 
 ---
 
-## ???????? Para Familiares e Cuidadores
+## ğŸ‘¨â€ğŸ‘©â€ğŸ‘§â€ğŸ‘¦ Para Familiares e Cuidadores
 
 ### Como Ajudar
-1. **Modelo de uso**: Use o app você mesmo primeiro
-2. **Espera ativa**: Dê tempo para ela processar
+1. **Modelo de uso**: Use o app vocÃª mesmo primeiro
+2. **Espera ativa**: DÃª tempo para ela processar
 3. **Reforce tentativas**: Mesmo que incompleto
 4. **Seja consistente**: Use diariamente
 5. **Comunique-se com a equipe**: Compartilhe progressos com terapeutas
 
 ### Quando Buscar Ajuda
-- Se houver resistência prolongada (mais de 2 semanas)
-- Se houver regressão na comunicação
+- Se houver resistÃªncia prolongada (mais de 2 semanas)
+- Se houver regressÃ£o na comunicaÃ§Ã£o
 - Se surgirem novos comportamentos desafiadores
 - Para ajustar categorias e pictogramas
 
 ---
 
-## ?? Suporte e Feedback
+## ğŸ“¬ Suporte e Feedback
 
 ### Registre:
 - Sucessos e conquistas
 - Dificuldades encontradas
-- Sugestões de novos pictogramas
+- SugestÃµes de novos pictogramas
 - Ideias de melhorias
 
 ### Compartilhe com:
-- Fonoaudiólogo/a
+- FonoaudiÃ³logo/a
 - Terapeuta ocupacional
-- Psicólogo/a
+- PsicÃ³logo/a
 - Escola/educadores
 
 ---
 
-## ?? Objetivos de Aprendizagem
+## ğŸ¯ Objetivos de Aprendizagem
 
 ### Curto Prazo (1-3 meses)
 - [ ] Fazer 3 pedidos diferentes espontaneamente
-- [ ] Usar cumprimentos (olá/tchau) com apoio
-- [ ] Expressar 2 emoções básicas (feliz/triste)
+- [ ] Usar cumprimentos (olÃ¡/tchau) com apoio
+- [ ] Expressar 2 emoÃ§Ãµes bÃ¡sicas (feliz/triste)
 
-### Médio Prazo (3-6 meses)
+### MÃ©dio Prazo (3-6 meses)
 - [ ] Combinar 2 pictogramas para fazer frases
-- [ ] Usar socialização em 3 contextos diferentes
-- [ ] Expressar preferências (gosto/não gosto)
+- [ ] Usar socializaÃ§Ã£o em 3 contextos diferentes
+- [ ] Expressar preferÃªncias (gosto/nÃ£o gosto)
 
 ### Longo Prazo (6-12 meses)
 - [ ] Comunicar necessidades em ambientes novos
-- [ ] Iniciar interações sociais usando o app
+- [ ] Iniciar interaÃ§Ãµes sociais usando o app
 - [ ] Combinar 3+ pictogramas para frases complexas
 
 ---
 
-## ?? Lembre-se
+## ğŸ’¬ Lembre-se
 
-> **Cada criança é única!**
+> **Cada crianÃ§a Ã© Ãºnica!**
 > 
-> O progresso de Luiza será no tempo dela.
+> O progresso de Luiza serÃ¡ no tempo dela.
 > Comemore cada pequena conquista.
-> A comunicação é um direito de todos.
-> Este app é uma ferramenta, não uma solução mágica.
-> O amor, paciência e consistência são essenciais.
+> A comunicaÃ§Ã£o Ã© um direito de todos.
+> Este app Ã© uma ferramenta, nÃ£o uma soluÃ§Ã£o mÃ¡gica.
+> O amor, paciÃªncia e consistÃªncia sÃ£o essenciais.
 
 ---
 
-**Desenvolvido com ?? especialmente para Luiza**
+**Desenvolvido com â¤ï¸ especialmente para Luiza**
 
-*Última atualização: Janeiro 2025*
+*Ãšltima atualizaÃ§Ã£o: Janeiro 2025*
