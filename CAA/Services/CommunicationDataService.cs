@@ -1,90 +1,90 @@
-using CAA.Models;
+Ôªøusing CAA.Models;
 
 namespace CAA.Services;
 
 public interface ICommunicationDataService
 {
-  Task<List<PictogramCategory>> GetCategoriesForLuizaAsync();
+    Task<List<PictogramCategory>> GetCategoriesForLuizaAsync();
     Task SaveCommunicationAsync(CommunicationPhrase phrase);
- Task<List<CommunicationPhrase>> GetHistoryAsync();
+    Task<List<CommunicationPhrase>> GetHistoryAsync();
 }
 
 public class CommunicationDataService : ICommunicationDataService
 {
- public Task<List<PictogramCategory>> GetCategoriesForLuizaAsync()
+    public Task<List<PictogramCategory>> GetCategoriesForLuizaAsync()
     {
         var categories = new List<PictogramCategory>
         {
-    // CATEGORIA 1: PEDIDOS (FunÁ„o: pedir objetos/aÁıes)
+    // CATEGORIA 1: PEDIDOS (Fun√ß√£o: pedir objetos/a√ß√µes)
             new PictogramCategory
             {
                 Name = "Pedidos",
                 Color = "#FF6B6B",
-     Icon = "??",
+     Icon = "üõí",
                 Pictograms = new List<Pictogram>
                 {
-        new() { Text = "¡gua", Symbol = "??", Color = "#ADD8E6", AudioPhrase = "Quero ·gua", Order = 1 },
-           new() { Text = "Comida", Symbol = "??", Color = "#FFD700", AudioPhrase = "Quero comer", Order = 2 },
-   new() { Text = "Brincar", Symbol = "??", Color = "#FF69B4", AudioPhrase = "Quero brincar", Order = 3 },
-         new() { Text = "Desenhar", Symbol = "???", Color = "#FF1493", AudioPhrase = "Quero desenhar", Order = 4 },
-     new() { Text = "M˙sica", Symbol = "??", Color = "#9370DB", AudioPhrase = "Quero ouvir m˙sica", Order = 5 },
- new() { Text = "Descansar", Symbol = "??", Color = "#87CEEB", AudioPhrase = "Quero descansar", Order = 6 },
-        new() { Text = "Ajuda", Symbol = "??", Color = "#FF4500", AudioPhrase = "Preciso de ajuda", Order = 7 },
-        new() { Text = "Banheiro", Symbol = "??", Color = "#A9A9A9", AudioPhrase = "Preciso ir ao banheiro", Order = 8 },
+        new() { Text = "√Ågua", Symbol = "üíß", Color = "#ADD8E6", AudioPhrase = "Quero √°gua", Order = 1 },
+           new() { Text = "Comida", Symbol = "üçî", Color = "#FFD700", AudioPhrase = "Quero comer", Order = 2 },
+   new() { Text = "Brincar", Symbol = "üß∏", Color = "#FF69B4", AudioPhrase = "Quero brincar", Order = 3 },
+         new() { Text = "Desenhar", Symbol = "üé®", Color = "#FF1493", AudioPhrase = "Quero desenhar", Order = 4 },
+     new() { Text = "M√∫sica", Symbol = "üéµ", Color = "#9370DB", AudioPhrase = "Quero ouvir m√∫sica", Order = 5 },
+ new() { Text = "Descansar", Symbol = "üò¥", Color = "#87CEEB", AudioPhrase = "Quero descansar", Order = 6 },
+        new() { Text = "Ajuda", Symbol = "üôè", Color = "#FF4500", AudioPhrase = "Preciso de ajuda", Order = 7 },
+        new() { Text = "Banheiro", Symbol = "üöΩ", Color = "#A9A9A9", AudioPhrase = "Preciso ir ao banheiro", Order = 8 },
      }
        },
 
-  // CATEGORIA 2: SOCIALIZA«√O (FunÁıes: cumprimentos, interaÁ„o)
+  // CATEGORIA 2: SOCIALIZA√á√ÉO (Fun√ß√µes: cumprimentos, intera√ß√£o)
    new PictogramCategory
             {
-   Name = "SocializaÁ„o",
+   Name = "Socializa√ß√£o",
     Color = "#4ECDC4",
-          Icon = "??",
+          Icon = "üëã",
          Pictograms = new List<Pictogram>
         {
-     new() { Text = "Ol·", Symbol = "??", Color = "#FFD700", AudioPhrase = "Ol·", Order = 1 },
-     new() { Text = "Tchau", Symbol = "??", Color = "#FFD700", AudioPhrase = "Tchau", Order = 2 },
-         new() { Text = "Obrigada", Symbol = "??", Color = "#90EE90", AudioPhrase = "Obrigada", Order = 3 },
-   new() { Text = "Por favor", Symbol = "??", Color = "#FFB6C1", AudioPhrase = "Por favor", Order = 4 },
-           new() { Text = "Legal!", Symbol = "??", Color = "#FFD700", AudioPhrase = "Que legal", Order = 5 },
-           new() { Text = "N„o gosto", Symbol = "??", Color = "#FF6347", AudioPhrase = "N„o gosto", Order = 6 },
+     new() { Text = "Ol√°", Symbol = "üëã", Color = "#FFD700", AudioPhrase = "Ol√°", Order = 1 },
+     new() { Text = "Tchau", Symbol = "üëã", Color = "#FFD700", AudioPhrase = "Tchau", Order = 2 },
+         new() { Text = "Obrigada", Symbol = "üôè", Color = "#90EE90", AudioPhrase = "Obrigada", Order = 3 },
+   new() { Text = "Por favor", Symbol = "üôè", Color = "#FFB6C1", AudioPhrase = "Por favor", Order = 4 },
+           new() { Text = "Legal!", Symbol = "üëç", Color = "#FFD700", AudioPhrase = "Que legal", Order = 5 },
+           new() { Text = "N√£o gosto", Symbol = "üëé", Color = "#FF6347", AudioPhrase = "N√£o gosto", Order = 6 },
      }
     },
 
-       // CATEGORIA 3: INFORMA«√O (FunÁıes: expressar opini„o, trocar informaÁıes)
+       // CATEGORIA 3: INFORMA√á√ÉO (Fun√ß√µes: expressar opini√£o, trocar informa√ß√µes)
     new PictogramCategory
    {
-      Name = "InformaÁ„o",
+      Name = "Informa√ß√£o",
      Color = "#FFE66D",
-                Icon = "??",
+                Icon = "‚ÑπÔ∏è",
      Pictograms = new List<Pictogram>
  {
-           new() { Text = "Sim", Symbol = "?", Color = "#90EE90", AudioPhrase = "Sim", Order = 1 },
-             new() { Text = "N„o", Symbol = "?", Color = "#FF6347", AudioPhrase = "N„o", Order = 2 },
-      new() { Text = "Gosto", Symbol = "??", Color = "#FF1493", AudioPhrase = "Eu gosto", Order = 3 },
-     new() { Text = "Cansada", Symbol = "??", Color = "#A9A9A9", AudioPhrase = "Estou cansada", Order = 4 },
- new() { Text = "Feliz", Symbol = "??", Color = "#FFD700", AudioPhrase = "Estou feliz", Order = 5 },
-              new() { Text = "Triste", Symbol = "??", Color = "#87CEEB", AudioPhrase = "Estou triste", Order = 6 },
-    new() { Text = "DÛi", Symbol = "??", Color = "#FF6347", AudioPhrase = "DÛi", Order = 7 },
-      new() { Text = "Medo", Symbol = "??", Color = "#8B008B", AudioPhrase = "Tenho medo", Order = 8 },
+           new() { Text = "Sim", Symbol = "‚úÖ", Color = "#90EE90", AudioPhrase = "Sim", Order = 1 },
+             new() { Text = "N√£o", Symbol = "‚ùå", Color = "#FF6347", AudioPhrase = "N√£o", Order = 2 },
+      new() { Text = "Gosto", Symbol = "‚ù§Ô∏è", Color = "#FF1493", AudioPhrase = "Eu gosto", Order = 3 },
+     new() { Text = "Cansada", Symbol = "üò¥", Color = "#A9A9A9", AudioPhrase = "Estou cansada", Order = 4 },
+ new() { Text = "Feliz", Symbol = "üòä", Color = "#FFD700", AudioPhrase = "Estou feliz", Order = 5 },
+              new() { Text = "Triste", Symbol = "üò¢", Color = "#87CEEB", AudioPhrase = "Estou triste", Order = 6 },
+    new() { Text = "D√≥i", Symbol = "ü§ï", Color = "#FF6347", AudioPhrase = "D√≥i", Order = 7 },
+      new() { Text = "Medo", Symbol = "üò®", Color = "#8B008B", AudioPhrase = "Tenho medo", Order = 8 },
  }
             },
 
-            // CATEGORIA 4: A«’ES DO DIA A DIA
+            // CATEGORIA 4: A√á√ïES DO DIA A DIA
        new PictogramCategory
             {
     Name = "Rotina",
            Color = "#95E1D3",
-    Icon = "??",
+    Icon = "üìÖ",
   Pictograms = new List<Pictogram>
        {
-           new() { Text = "Manh„", Symbol = "??", Color = "#FFD700", AudioPhrase = "Bom dia", Order = 1 },
-   new() { Text = "Tarde", Symbol = "??", Color = "#FFA500", AudioPhrase = "Boa tarde", Order = 2 },
-         new() { Text = "Noite", Symbol = "??", Color = "#191970", AudioPhrase = "Boa noite", Order = 3 },
-      new() { Text = "Escola", Symbol = "??", Color = "#8B4513", AudioPhrase = "Vamos para a escola", Order = 4 },
-        new() { Text = "Casa", Symbol = "??", Color = "#FF69B4", AudioPhrase = "Vamos para casa", Order = 5 },
-            new() { Text = "Banho", Symbol = "??", Color = "#87CEEB", AudioPhrase = "Hora do banho", Order = 6 },
-            new() { Text = "Dormir", Symbol = "???", Color = "#696969", AudioPhrase = "Hora de dormir", Order = 7 },
+           new() { Text = "Manh√£", Symbol = "‚òÄÔ∏è", Color = "#FFD700", AudioPhrase = "Bom dia", Order = 1 },
+   new() { Text = "Tarde", Symbol = "üåá", Color = "#FFA500", AudioPhrase = "Boa tarde", Order = 2 },
+         new() { Text = "Noite", Symbol = "üåô", Color = "#191970", AudioPhrase = "Boa noite", Order = 3 },
+      new() { Text = "Escola", Symbol = "üè´", Color = "#8B4513", AudioPhrase = "Vamos para a escola", Order = 4 },
+        new() { Text = "Casa", Symbol = "üè†", Color = "#FF69B4", AudioPhrase = "Vamos para casa", Order = 5 },
+            new() { Text = "Banho", Symbol = "üõÄ", Color = "#87CEEB", AudioPhrase = "Hora do banho", Order = 6 },
+            new() { Text = "Dormir", Symbol = "üò¥", Color = "#696969", AudioPhrase = "Hora de dormir", Order = 7 },
   }
             }
         };
@@ -94,13 +94,13 @@ public class CommunicationDataService : ICommunicationDataService
 
     public Task SaveCommunicationAsync(CommunicationPhrase phrase)
     {
-        // TODO: Implementar persistÍncia em banco de dados local
+        // TODO: Implementar persist√™ncia em banco de dados local
         return Task.CompletedTask;
     }
 
     public Task<List<CommunicationPhrase>> GetHistoryAsync()
     {
-        // TODO: Implementar recuperaÁ„o do histÛrico
-     return Task.FromResult(new List<CommunicationPhrase>());
+        // TODO: Implementar recupera√ß√£o do hist√≥rico
+        return Task.FromResult(new List<CommunicationPhrase>());
     }
 }
