@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml">
+
+    <!-- Typography Styles -->
+    <Style x:Key="DisplayLarge" TargetType="Label">
+     <Setter Property="FontSize" Value="32"/>
+  <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="TextColor" Value="{StaticResource TextPrimary}"/>
+     <Setter Property="LineHeight" Value="1.2"/>
+    </Style>
+
+    <Style x:Key="DisplayMedium" TargetType="Label">
+        <Setter Property="FontSize" Value="28"/>
+      <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="TextColor" Value="{StaticResource TextPrimary}"/>
+        <Setter Property="LineHeight" Value="1.2"/>
+    </Style>
+
+    <Style x:Key="HeadlineLarge" TargetType="Label">
+        <Setter Property="FontSize" Value="24"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="TextColor" Value="{StaticResource TextPrimary}"/>
+        <Setter Property="LineHeight" Value="1.3"/>
+    </Style>
+
+    <Style x:Key="HeadlineMedium" TargetType="Label">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="TextColor" Value="{StaticResource TextPrimary}"/>
+        <Setter Property="LineHeight" Value="1.3"/>
+    </Style>
+
+    <Style x:Key="TitleLarge" TargetType="Label">
+        <Setter Property="FontSize" Value="18"/>
+     <Setter Property="FontAttributes" Value="Bold"/>
+   <Setter Property="TextColor" Value="{StaticResource TextPrimary}"/>
+        <Setter Property="LineHeight" Value="1.4"/>
+    </Style>
+
+    <Style x:Key="TitleMedium" TargetType="Label">
+    <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="TextColor" Value="{StaticResource TextPrimary}"/>
+        <Setter Property="LineHeight" Value="1.4"/>
+    </Style>
+
+    <Style x:Key="BodyLarge" TargetType="Label">
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="TextColor" Value="{StaticResource TextPrimary}"/>
+        <Setter Property="LineHeight" Value="1.5"/>
+    </Style>
+
+    <Style x:Key="BodyMedium" TargetType="Label">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="TextColor" Value="{StaticResource TextPrimary}"/>
+      <Setter Property="LineHeight" Value="1.5"/>
+    </Style>
+
+    <Style x:Key="BodySmall" TargetType="Label">
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="TextColor" Value="{StaticResource TextSecondary}"/>
+     <Setter Property="LineHeight" Value="1.5"/>
+    </Style>
+
+    <Style x:Key="LabelLarge" TargetType="Label">
+        <Setter Property="FontSize" Value="14"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+    <Setter Property="TextColor" Value="{StaticResource TextPrimary}"/>
+    </Style>
+
+    <Style x:Key="LabelMedium" TargetType="Label">
+    <Setter Property="FontSize" Value="12"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="TextColor" Value="{StaticResource TextPrimary}"/>
+</Style>
+
+    <!-- Component Styles -->
+    
+    <!-- Card Style -->
+  <Style x:Key="Card" TargetType="Frame">
+        <Setter Property="BackgroundColor" Value="{StaticResource Surface}"/>
+        <Setter Property="BorderColor" Value="{StaticResource Gray200}"/>
+        <Setter Property="CornerRadius" Value="16"/>
+        <Setter Property="HasShadow" Value="True"/>
+        <Setter Property="Padding" Value="16"/>
+    </Style>
+
+    <Style x:Key="CardElevated" TargetType="Frame">
+        <Setter Property="BackgroundColor" Value="{StaticResource Surface}"/>
+        <Setter Property="BorderColor" Value="Transparent"/>
+      <Setter Property="CornerRadius" Value="16"/>
+        <Setter Property="HasShadow" Value="True"/>
+        <Setter Property="Padding" Value="16"/>
+    </Style>
+
+    <!-- Pictogram Card Style -->
+    <Style x:Key="PictogramCard" TargetType="Frame">
+   <Setter Property="BackgroundColor" Value="{StaticResource Surface}"/>
+        <Setter Property="BorderColor" Value="{StaticResource Gray300}"/>
+      <Setter Property="CornerRadius" Value="12"/>
+        <Setter Property="HasShadow" Value="True"/>
+        <Setter Property="Padding" Value="12"/>
+        <Setter Property="HeightRequest" Value="100"/>
+    </Style>
+
+    <!-- Button Styles -->
+    <Style x:Key="ButtonPrimary" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="{StaticResource Primary}"/>
+        <Setter Property="TextColor" Value="{StaticResource TextOnPrimary}"/>
+        <Setter Property="FontSize" Value="16"/>
+    <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="CornerRadius" Value="12"/>
+        <Setter Property="Padding" Value="24,12"/>
+    <Setter Property="HeightRequest" Value="56"/>
+    </Style>
+
+    <Style x:Key="ButtonSecondary" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="{StaticResource Gray100}"/>
+        <Setter Property="TextColor" Value="{StaticResource TextPrimary}"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="CornerRadius" Value="12"/>
+        <Setter Property="Padding" Value="24,12"/>
+        <Setter Property="HeightRequest" Value="56"/>
+</Style>
+
+    <Style x:Key="ButtonDanger" TargetType="Button">
+        <Setter Property="BackgroundColor" Value="{StaticResource Error}"/>
+   <Setter Property="TextColor" Value="{StaticResource TextOnPrimary}"/>
+   <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="CornerRadius" Value="12"/>
+  <Setter Property="Padding" Value="24,12"/>
+   <Setter Property="HeightRequest" Value="56"/>
+    </Style>
+
+    <Style x:Key="ButtonSuccess" TargetType="Button">
+    <Setter Property="BackgroundColor" Value="{StaticResource Success}"/>
+     <Setter Property="TextColor" Value="{StaticResource TextOnPrimary}"/>
+     <Setter Property="FontSize" Value="16"/>
+        <Setter Property="FontAttributes" Value="Bold"/>
+        <Setter Property="CornerRadius" Value="12"/>
+        <Setter Property="Padding" Value="24,12"/>
+        <Setter Property="HeightRequest" Value="56"/>
+</Style>
+
+    <!-- Entry Style -->
+    <Style x:Key="EntryStyle" TargetType="Entry">
+        <Setter Property="BackgroundColor" Value="{StaticResource Surface}"/>
+      <Setter Property="TextColor" Value="{StaticResource TextPrimary}"/>
+        <Setter Property="PlaceholderColor" Value="{StaticResource TextTertiary}"/>
+        <Setter Property="FontSize" Value="16"/>
+        <Setter Property="HeightRequest" Value="56"/>
+    </Style>
+
+  <!-- Header Style -->
+    <Style x:Key="HeaderStyle" TargetType="StackLayout">
+        <Setter Property="BackgroundColor" Value="{StaticResource Primary}"/>
+  <Setter Property="Padding" Value="20"/>
+        <Setter Property="Spacing" Value="8"/>
+    </Style>
+
+</ResourceDictionary>

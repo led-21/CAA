@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="CAA.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:CAA"
+    xmlns:views="clr-namespace:CAA.Views"
+    Title="CAA - Luiza"
+    FlyoutBackgroundColor="{StaticResource Background}">
+
+    <Shell.Resources>
+        <Style TargetType="TabBar">
+            <Setter Property="Shell.TabBarBackgroundColor" Value="{StaticResource Surface}"/>
+            <Setter Property="Shell.TabBarTitleColor" Value="{StaticResource TextSecondary}"/>
+            <Setter Property="Shell.TabBarUnselectedColor" Value="{StaticResource TextSecondary}"/>
+            <Setter Property="Shell.TabBarForegroundColor" Value="{StaticResource Primary}"/>
+        </Style>
+    </Shell.Resources>
+
+    <TabBar>
+        <ShellContent
+     Title="Comunicação"
+  Icon="chat.png"
+ ContentTemplate="{DataTemplate views:CommunicationPage}"
+         Route="CommunicationPage" />
+
+        <ShellContent
+ Title="Histórico"
+      Icon="history.png"
+    ContentTemplate="{DataTemplate views:HistoryPage}"
+  Route="HistoryPage" />
+    </TabBar>
+
+</Shell>

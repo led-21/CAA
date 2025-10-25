@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ContentPage
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    x:Class="CAA.Views.CommunicationPage"
+  Title="CAA - Luiza"
+    BackgroundColor="{StaticResource Background}">
+
+    <Grid RowDefinitions="Auto,*,Auto">
+    
+        <!-- Professional Header with Gradient -->
+        <StackLayout Grid.Row="0" Style="{StaticResource HeaderStyle}">
+      <Label Text="Comunicacao Aumentativa e Alternativa" 
+Style="{StaticResource HeadlineMedium}"
+      TextColor="{StaticResource TextOnPrimary}"
+ HorizontalOptions="Center"/>
+     <Label Text="Luiza Lopes Guimaraes Godoy" 
+   Style="{StaticResource BodyMedium}"
+      TextColor="{StaticResource TextOnPrimary}"
+   Opacity="0.9"
+      HorizontalOptions="Center"/>
+        </StackLayout>
+
+     <!-- Main Content with Professional Spacing -->
+     <ScrollView Grid.Row="1">
+      <StackLayout Padding="16" Spacing="20">
+   
+    <!-- Message Composition Card -->
+       <Frame Style="{StaticResource CardElevated}" Padding="20">
+ <StackLayout Spacing="16">
+     <Label Text="Sua Mensagem" 
+     Style="{StaticResource TitleMedium}"/>
+  
+         <Frame BackgroundColor="{StaticResource Gray50}" 
+ BorderColor="{StaticResource Gray200}"
+  CornerRadius="12"
+     Padding="16"
+    HasShadow="False">
+        <Label Text="{Binding CommunicationText}" 
+        Style="{StaticResource BodyLarge}"
+  TextColor="{StaticResource Primary}"
+           MinimumHeightRequest="50"
+     VerticalOptions="Center">
+    <Label.Triggers>
+        <DataTrigger TargetType="Label" 
+      Binding="{Binding CommunicationText}" 
+    Value="">
+      <Setter Property="Text" Value="Selecione pictogramas para compor sua mensagem..."/>
+       <Setter Property="TextColor" Value="{StaticResource TextTertiary}"/>
+          <Setter Property="FontAttributes" Value="Italic"/>
+     </DataTrigger>
+       </Label.Triggers>
+</Label>
+     </Frame>
+
+   <!-- Selected Pictograms Display -->
+    <CollectionView ItemsSource="{Binding SelectedPictograms}" 
+           HeightRequest="100">
+  <CollectionView.ItemsLayout>
+   <LinearItemsLayout Orientation="Horizontal" ItemSpacing="12"/>
+      </CollectionView.ItemsLayout>
+      <CollectionView.ItemTemplate>
+    <DataTemplate>
+           <Frame Style="{StaticResource PictogramCard}"
+     BackgroundColor="{Binding Color, StringFormat='{0}20'}"
+    BorderColor="{Binding Color}"
+      Padding="12"
+     WidthRequest="90">
+    <StackLayout Spacing="6" HorizontalOptions="Center" VerticalOptions="Center">
+      <Label Text="{Binding Symbol}" 
+FontSize="32" 
+            HorizontalOptions="Center"/>
+         <Label Text="{Binding Text}" 
+  Style="{StaticResource LabelMedium}"
+        HorizontalOptions="Center"
+ HorizontalTextAlignment="Center"/>
+        </StackLayout>
+         <Frame.GestureRecognizers>
+<TapGestureRecognizer 
+          Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.RemovePictogramCommand}" 
+  CommandParameter="{Binding .}"/>
+        </Frame.GestureRecognizers>
+        </Frame>
+        </DataTemplate>
+             </CollectionView.ItemTemplate>
+  </CollectionView>
+     </StackLayout>
+      </Frame>
+
+         <!-- Categories Section -->
+          <CollectionView ItemsSource="{Binding Categories}">
+   <CollectionView.ItemsLayout>
+      <LinearItemsLayout Orientation="Vertical" ItemSpacing="16"/>
+     </CollectionView.ItemsLayout>
+           <CollectionView.ItemTemplate>
+     <DataTemplate>
+          <Frame Style="{StaticResource CardElevated}">
+    <StackLayout Spacing="16">
+      
+     <!-- Category Header -->
+       <Grid ColumnDefinitions="Auto,*,Auto">
+      <Frame Grid.Column="0"
+  BackgroundColor="{Binding Color, StringFormat='{0}20'}"
+             BorderColor="{Binding Color}"
+        CornerRadius="12"
+    Padding="12"
+       HasShadow="False"
+       WidthRequest="56"
+HeightRequest="56">
+    <Label Text="{Binding Icon}" 
+      FontSize="28"
+         HorizontalOptions="Center"
+     VerticalOptions="Center"/>
+       </Frame>
+        
+ <StackLayout Grid.Column="1" 
+             VerticalOptions="Center"
+         Margin="16,0,0,0">
+      <Label Text="{Binding Name}" 
+  Style="{StaticResource HeadlineMedium}"/>
+       <Label Text="{Binding Pictograms.Count, StringFormat='{0} pictogramas'}"
+  Style="{StaticResource BodySmall}"/>
+  </StackLayout>
+     </Grid>
+
+  <!-- Pictograms Grid -->
+     <CollectionView ItemsSource="{Binding Pictograms}">
+   <CollectionView.ItemsLayout>
+              <GridItemsLayout Orientation="Vertical" 
+   HorizontalItemSpacing="12"
+        VerticalItemSpacing="12"
+  Span="4"/>
+           </CollectionView.ItemsLayout>
+ <CollectionView.ItemTemplate>
+           <DataTemplate>
+    <Frame Style="{StaticResource PictogramCard}"
+ BackgroundColor="{Binding Color, StringFormat='{0}15'}"
+        BorderColor="{Binding Color}">
+     <StackLayout Spacing="6" 
+     HorizontalOptions="Center" 
+      VerticalOptions="Center">
+  <Label Text="{Binding Symbol}" 
+    FontSize="36" 
+        HorizontalOptions="Center"/>
+         <Label Text="{Binding Text}" 
+         Style="{StaticResource LabelMedium}"
+   HorizontalOptions="Center"
+  HorizontalTextAlignment="Center"
+         MaxLines="2"
+         LineBreakMode="TailTruncation"/>
+        </StackLayout>
+          <Frame.GestureRecognizers>
+      <TapGestureRecognizer 
+          Command="{Binding Source={RelativeSource AncestorType={x:Type ContentPage}}, Path=BindingContext.SelectPictogramCommand}" 
+          CommandParameter="{Binding .}"/>
+  </Frame.GestureRecognizers>
+         </Frame>
+      </DataTemplate>
+   </CollectionView.ItemTemplate>
+      </CollectionView>
+  </StackLayout>
+     </Frame>
+          </DataTemplate>
+       </CollectionView.ItemTemplate>
+ </CollectionView>
+
+ <!-- Bottom Spacing -->
+     <BoxView HeightRequest="20" Color="Transparent"/>
+
+   </StackLayout>
+        </ScrollView>
+
+        <!-- Action Buttons with Professional Design -->
+    <Grid Grid.Row="2" 
+    ColumnDefinitions="*,*" 
+ ColumnSpacing="12" 
+   Padding="16"
+   BackgroundColor="{StaticResource Surface}">
+        
+    <!-- Shadow Effect -->
+    <BoxView Grid.ColumnSpan="2"
+       Color="{StaticResource Gray200}"
+       HeightRequest="1"
+         VerticalOptions="Start"
+   Margin="0,-1,0,0"/>
+
+   <Button Grid.Column="0"
+    Text="Falar"
+  Command="{Binding SpeakCommand}"
+     Style="{StaticResource ButtonSuccess}"/>
+            
+       <Button Grid.Column="1"
+         Text="Limpar"
+      Command="{Binding ClearCommand}"
+        Style="{StaticResource ButtonSecondary}"/>
+  </Grid>
+
+</Grid>
+</ContentPage>
