@@ -18,7 +18,7 @@ O **CAA** (Comunicação Alternativa e Aumentativa) é um aplicativo desenvolvid
 - Educadores, terapeutas e familiares que desejam auxiliar na comunicação.
 
 ## Tela do aplicativo
-<img src="images/screen.jpg" alt="Tela do aplicativo" width="50%">
+<img src="images/screen.jpg" alt="Tela do aplicativo" width="75%">
 
 ## Como usar
 
