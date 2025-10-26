@@ -1,7 +1,5 @@
 # CAA
 
-![Tela do aplicativo](images/screen.jpg)
-
 ## Sobre o projeto
 
 O **CAA** (Comunicação Alternativa e Aumentativa) é um aplicativo desenvolvido para facilitar a comunicação de pessoas com dificuldades de fala, utilizando pictogramas e frases simples. Ele permite construir mensagens por meio da seleção de imagens, tornando a interação mais acessível e intuitiva.
@@ -18,6 +16,9 @@ O **CAA** (Comunicação Alternativa e Aumentativa) é um aplicativo desenvolvid
 
 - Pessoas com deficiência na fala ou comunicação (TEA, paralisia cerebral, síndrome de Down, etc).
 - Educadores, terapeutas e familiares que desejam auxiliar na comunicação.
+
+## Tela do aplicativo
+<img src="images/screen.jpg" alt="Tela do aplicativo" width="50%">
 
 ## Como usar
 
