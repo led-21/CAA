@@ -1,4 +1,4 @@
-# CAA
+# Augmentative and Alternative Communication
 
 ## About the Project
 
