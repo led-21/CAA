@@ -1,29 +1,32 @@
-# ?? Design System - App CAA Luiza
+# ğŸ¨ Design System
 
-## Visão Geral do Design Profissional
+## ğŸ§­ VisÃ£o Geral do Design Profissional
 
-O aplicativo CAA para Luiza foi redesenhado com um **sistema de design profissional e moderno**, mantendo a acessibilidade e adequação para crianças com TEA.
+O aplicativo CAA para Luiza foi redesenhado com um **sistema de design profissional e moderno**, mantendo a acessibilidade e adequaÃ§Ã£o para crianÃ§as com TEA.
 
 ---
 
-## ?? Paleta de Cores
+## ğŸ¨ Paleta de Cores
 
-### Cores Primárias
+### ğŸ¯ Cores PrimÃ¡rias
+
 ```
-Primary: #6366F1 (Índigo vibrante)
+Primary: #6366F1 (Ãndigo vibrante)
 Primary Dark: #4F46E5
 Primary Light: #818CF8
 ```
 
-### Cores de Categorias
+### ğŸŸª Cores de Categorias
+
 ```
-?? Pedidos: #EF4444 (Vermelho) - Urgência e necessidade
-?? Socialização: #14B8A6 (Turquesa) - Interação e amizade
-?? Informação: #F59E0B (Âmbar) - Conhecimento e expressão
-?? Rotina: #10B981 (Verde) - Consistência e segurança
+ğŸ›’ Pedidos: #EF4444 (Vermelho) - UrgÃªncia e necessidade
+ğŸ’¬ SocializaÃ§Ã£o: #14B8A6 (Turquesa) - InteraÃ§Ã£o e amizade
+ğŸ“˜ InformaÃ§Ã£o: #F59E0B (Ã‚mbar) - Conhecimento e expressÃ£o
+â° Rotina: #10B981 (Verde) - ConsistÃªncia e seguranÃ§a
 ```
 
-### Cores Neutras (Escala de Cinza)
+### âšª Cores Neutras (Escala de Cinza)
+
 ```
 Gray 50: #F9FAFB (Background)
 Gray 100: #F3F4F6 (Surface Variant)
@@ -37,48 +40,55 @@ Gray 800: #1F2937
 Gray 900: #111827 (Text Primary)
 ```
 
-### Cores Semânticas
+### ğŸš¦ Cores SemÃ¢nticas
+
 ```
-? Success: #10B981
-?? Warning: #F59E0B
-? Error: #EF4444
-?? Info: #3B82F6
+âœ… Success: #10B981
+âš ï¸ Warning: #F59E0B
+âŒ Error: #EF4444
+â„¹ï¸ Info: #3B82F6
 ```
 
 ---
 
-## ?? Sistema de Tipografia
+## âœï¸ Sistema de Tipografia
 
-### Hierarquia de Texto
+### ğŸ“ Hierarquia de Texto
 
-#### Display
-- **Display Large**: 32px, Bold - Para títulos principais
-- **Display Medium**: 28px, Bold - Para títulos de seção
+#### ğŸ“° Display
 
-#### Headline
-- **Headline Large**: 24px, Bold - Para cabeçalhos importantes
-- **Headline Medium**: 20px, Bold - Para cabeçalhos de cards
+* **Display Large**: 32px, Bold - Para tÃ­tulos principais
+* **Display Medium**: 28px, Bold - Para tÃ­tulos de seÃ§Ã£o
 
-#### Title
-- **Title Large**: 18px, Bold - Para títulos de componentes
-- **Title Medium**: 16px, Bold - Para subtítulos
+#### ğŸ§© Headline
 
-#### Body
-- **Body Large**: 16px, Regular - Para texto principal
-- **Body Medium**: 14px, Regular - Para texto secundário
-- **Body Small**: 12px, Regular - Para legendas
+* **Headline Large**: 24px, Bold - Para cabeÃ§alhos importantes
+* **Headline Medium**: 20px, Bold - Para cabeÃ§alhos de cards
 
-#### Label
-- **Label Large**: 14px, Bold - Para labels de formulários
-- **Label Medium**: 12px, Bold - Para labels de botões
+#### ğŸ·ï¸ Title
+
+* **Title Large**: 18px, Bold - Para tÃ­tulos de componentes
+* **Title Medium**: 16px, Bold - Para subtÃ­tulos
+
+#### ğŸ“– Body
+
+* **Body Large**: 16px, Regular - Para texto principal
+* **Body Medium**: 14px, Regular - Para texto secundÃ¡rio
+* **Body Small**: 12px, Regular - Para legendas
+
+#### ğŸªª Label
+
+* **Label Large**: 14px, Bold - Para labels de formulÃ¡rios
+* **Label Medium**: 12px, Bold - Para labels de botÃµes
 
 ---
 
-## ?? Componentes de Design
+## ğŸ§± Componentes de Design
 
-### Cards
+### ğŸ§© Cards
 
-#### Card Padrão
+#### ğŸ“¦ Card PadrÃ£o
+
 ```
 - Background: Branco (#FFFFFF)
 - Border: Gray 200 (#E5E7EB)
@@ -87,7 +97,8 @@ Gray 900: #111827 (Text Primary)
 - Padding: 16px
 ```
 
-#### Card Elevado
+#### ğŸª„ Card Elevado
+
 ```
 - Background: Branco (#FFFFFF)
 - Border: Transparente
@@ -96,7 +107,8 @@ Gray 900: #111827 (Text Primary)
 - Padding: 16px
 ```
 
-#### Pictogram Card
+#### ğŸ–¼ï¸ Pictogram Card
+
 ```
 - Background: Cor da categoria com 15% de opacidade
 - Border: Cor da categoria
@@ -106,9 +118,10 @@ Gray 900: #111827 (Text Primary)
 - Shadow: Sim
 ```
 
-### Botões
+### ğŸ”˜ BotÃµes
 
-#### Button Primary
+#### ğŸŸ£ Button Primary
+
 ```
 - Background: Primary (#6366F1)
 - Text: Branco
@@ -118,7 +131,8 @@ Gray 900: #111827 (Text Primary)
 - Height: 56px
 ```
 
-#### Button Secondary
+#### âšª Button Secondary
+
 ```
 - Background: Gray 100
 - Text: Text Primary
@@ -127,7 +141,8 @@ Gray 900: #111827 (Text Primary)
 - Height: 56px
 ```
 
-#### Button Success
+#### âœ… Button Success
+
 ```
 - Background: Success (#10B981)
 - Text: Branco
@@ -136,7 +151,8 @@ Gray 900: #111827 (Text Primary)
 - Height: 56px
 ```
 
-### Entries (Campos de Entrada)
+### âœï¸ Entries (Campos de Entrada)
+
 ```
 - Background: Branco
 - Text Color: Text Primary
@@ -148,231 +164,258 @@ Gray 900: #111827 (Text Primary)
 
 ---
 
-## ?? Layout e Espaçamento
+## ğŸ“ Layout e EspaÃ§amento
 
-### Sistema de Espaçamento (múltiplos de 4px)
+### ğŸ“ Sistema de EspaÃ§amento (mÃºltiplos de 4px)
+
 ```
-4px  - Muito pequeno (espaçamento mínimo)
+4px  - Muito pequeno (espaÃ§amento mÃ­nimo)
 8px  - Pequeno (entre elementos relacionados)
-12px - Médio (espaçamento padrão)
+12px - MÃ©dio (espaÃ§amento padrÃ£o)
 16px - Grande (padding de containers)
-20px - Extra grande (separação de seções)
+20px - Extra grande (separaÃ§Ã£o de seÃ§Ãµes)
 24px - Muito grande (margens externas)
 ```
 
-### Grid System
-- **Pictogramas**: 4 colunas em tablets/landscape
-- **Spacing**: 12px entre pictogramas
-- **Padding**: 16px nas laterais
+### ğŸ§© Grid System
+
+* **Pictogramas**: 4 colunas em tablets/landscape
+* **Spacing**: 12px entre pictogramas
+* **Padding**: 16px nas laterais
 
 ---
 
-## ?? Princípios de Design para TEA
+## ğŸ§  PrincÃ­pios de Design para TEA
 
 ### 1. **Clareza Visual**
-- ? Alto contraste entre texto e fundo
-- ? Ícones grandes e reconhecíveis (28-36px)
-- ? Espaçamento generoso entre elementos
-- ? Sem gradientes complexos ou texturas
 
-### 2. **Consistência**
-- ? Cores consistentes por categoria
-- ? Mesmo estilo de botão para mesma ação
-- ? Pictogramas sempre no mesmo formato
-- ? Navegação previsível
+* ğŸ”† Alto contraste entre texto e fundo
+* ğŸ§© Ãcones grandes e reconhecÃ­veis (28â€“36px)
+* ğŸª¶ EspaÃ§amento generoso entre elementos
+* ğŸš« Sem gradientes complexos ou texturas
 
-### 3. **Redução de Sobrecarga Cognitiva**
-- ? Uma ação por botão
-- ? Hierarquia visual clara
-- ? Informações agrupadas logicamente
-- ? Feedback visual imediato
+### 2. **ConsistÃªncia**
+
+* ğŸ¨ Cores consistentes por categoria
+* ğŸ” Mesmo estilo de botÃ£o para mesma aÃ§Ã£o
+* ğŸ–¼ï¸ Pictogramas sempre no mesmo formato
+* ğŸ§­ NavegaÃ§Ã£o previsÃ­vel
+
+### 3. **ReduÃ§Ã£o de Sobrecarga Cognitiva**
+
+* ğŸ¯ Uma aÃ§Ã£o por botÃ£o
+* ğŸ§© Hierarquia visual clara
+* ğŸ“š InformaÃ§Ãµes agrupadas logicamente
+* ğŸ’¡ Feedback visual imediato
 
 ### 4. **Acessibilidade**
-- ? Área de toque mínima: 44x44px
-- ? Labels descritivos
-- ? Suporte a SemanticProperties
-- ? Cores com contraste WCAG AA
+
+* ğŸ–ï¸ Ãrea de toque mÃ­nima: 44x44px
+* ğŸ·ï¸ Labels descritivos
+* â™¿ Suporte a SemanticProperties
+* ğŸŒˆ Cores com contraste WCAG AA
 
 ---
 
-## ?? Componentes Específicos
+## ğŸ§© Componentes EspecÃ­ficos
 
-### Header (Cabeçalho)
+### ğŸ§­ Header (CabeÃ§alho)
+
 ```xaml
 <StackLayout Style="{StaticResource HeaderStyle}">
  - Background: Primary
-    - Padding: 20px
-    - Spacing: 8px
+ - Padding: 20px
+ - Spacing: 8px
 </StackLayout>
 ```
 
-### Message Composition Area
+### ğŸ’¬ Message Composition Area
+
 ```
 - Frame elevado com sombra
 - Background interno: Gray 50
-- Altura mínima: 50px
-- Placeholder em itálico quando vazio
+- Altura mÃ­nima: 50px
+- Placeholder em itÃ¡lico quando vazio
 ```
 
-### Category Card
+### ğŸ—‚ï¸ Category Card
+
 ```
 - Card elevado
-- Ícone em círculo colorido (56x56px)
+- Ãcone em cÃ­rculo colorido (56x56px)
 - Nome da categoria em Headline Medium
 - Contador de pictogramas em Body Small
 - Grid de pictogramas 4 colunas
 ```
 
-### Selected Pictogram
+### ğŸ–¼ï¸ Selected Pictogram
+
 ```
 - Card de 90px de largura
 - Background: Cor com 20% de opacidade
-- Border: Cor sólida da categoria
-- Símbolo: 32px
+- Border: Cor sÃ³lida da categoria
+- SÃ­mbolo: 32px
 - Texto: Label Medium
 - Tappable para remover
 ```
 
 ---
 
-## ?? Estados de Interação
+## ğŸ§­ Estados de InteraÃ§Ã£o
 
-### Normal
-- Cor padrão do componente
+### ğŸŸ¢ Normal
 
-### Hover (Desktop/Web)
-- Ligeiro escurecimento da cor de fundo
-- Elevação da sombra
+* Cor padrÃ£o do componente
 
-### Pressed
-- Escurecimento mais pronunciado
-- Redução da elevação
+### ğŸ–±ï¸ Hover (Desktop/Web)
 
-### Disabled
-- Opacidade 50%
-- Cor de texto Gray 400
+* Ligeiro escurecimento da cor de fundo
+* ElevaÃ§Ã£o da sombra
 
-### Selected
-- Border mais espessa
-- Background com cor de destaque
+### ğŸ”˜ Pressed
+
+* Escurecimento mais pronunciado
+* ReduÃ§Ã£o da elevaÃ§Ã£o
+
+### ğŸš« Disabled
+
+* Opacidade 50%
+* Cor de texto Gray 400
+
+### ğŸ”² Selected
+
+* Border mais espessa
+* Background com cor de destaque
 
 ---
 
-## ?? Métricas de UX
+## ğŸ“Š MÃ©tricas de UX
 
-### Áreas de Toque
+### ğŸ–ï¸ Ãreas de Toque
+
 ```
-Mínimo: 44x44px (WCAG)
+MÃ­nimo: 44x44px (WCAG)
 Recomendado para TEA: 56x56px ou maior
 Pictogramas: 100x100px
 ```
 
-### Tempo de Resposta
+### âš¡ Tempo de Resposta
+
 ```
 Feedback visual: Imediato (<100ms)
-Animações: Sutis (200-300ms)
-Transições: Suaves (300ms)
+AnimaÃ§Ãµes: Sutis (200â€“300ms)
+TransiÃ§Ãµes: Suaves (300ms)
 ```
 
-### Densidade de Informação
+### ğŸ§® Densidade de InformaÃ§Ã£o
+
 ```
-Máximo 4 pictogramas por linha
-Máximo 8 pictogramas visíveis por categoria sem scroll
-Espaçamento generoso (12px+)
+MÃ¡ximo 4 pictogramas por linha
+MÃ¡ximo 8 pictogramas visÃ­veis por categoria sem scroll
+EspaÃ§amento generoso (12px+)
 ```
 
 ---
 
-## ?? Melhorias Implementadas
+## ğŸš€ Melhorias Implementadas
 
-### ? Interface Redesenhada
-- Cards com elevação e sombras profissionais
-- Hierarquia visual clara com tipografia escalável
-- Espaçamento consistente e respirável
-- Cores semânticas e categóricas
+### ğŸ¨ Interface Redesenhada
 
-### ? Componentes Modernos
-- Frames com border radius suaves (12-16px)
-- Botões com altura adequada (56px)
-- Ícones de categoria em círculos coloridos
-- Empty states ilustrados
+* Cards com elevaÃ§Ã£o e sombras profissionais
+* Hierarquia visual clara com tipografia escalÃ¡vel
+* EspaÃ§amento consistente e respirÃ¡vel
+* Cores semÃ¢nticas e categÃ³ricas
 
-### ? Feedback Visual
-- Estados de interação claros
-- Separadores sutis entre seções
-- Sombras para criar profundidade
-- Cores de destaque para ações importantes
+### ğŸ§± Componentes Modernos
 
-### ? Acessibilidade Melhorada
-- Alto contraste em todos os elementos
-- Áreas de toque generosas
-- Labels descritivos
-- Suporte a leitores de tela
+* Frames com border radius suaves (12â€“16px)
+* BotÃµes com altura adequada (56px)
+* Ãcones de categoria em cÃ­rculos coloridos
+* Empty states ilustrados
+
+### ğŸ’¡ Feedback Visual
+
+* Estados de interaÃ§Ã£o claros
+* Separadores sutis entre seÃ§Ãµes
+* Sombras para criar profundidade
+* Cores de destaque para aÃ§Ãµes importantes
+
+### â™¿ Acessibilidade Melhorada
+
+* Alto contraste em todos os elementos
+* Ãreas de toque generosas
+* Labels descritivos
+* Suporte a leitores de tela
 
 ---
 
-## ?? Guia de Uso do Design System
+## ğŸ“˜ Guia de Uso do Design System
 
-### Para Adicionar Nova Categoria
+### â• Para Adicionar Nova Categoria
+
 ```xaml
 <Frame Style="{StaticResource CardElevated}">
     <Frame BackgroundColor="[COR]20" BorderColor="[COR]">
-      <!-- Conteúdo -->
+      <!-- ConteÃºdo -->
     </Frame>
 </Frame>
 ```
 
-### Para Criar Novo Botão
+### ğŸ”˜ Para Criar Novo BotÃ£o
+
 ```xaml
-<Button Text="Ação" 
+<Button Text="AÃ§Ã£o" 
         Command="{Binding Command}"
-   Style="{StaticResource ButtonPrimary}"/>
+        Style="{StaticResource ButtonPrimary}"/>
 ```
 
-### Para Adicionar Novo Card
+### ğŸ§© Para Adicionar Novo Card
+
 ```xaml
 <Frame Style="{StaticResource Card}">
-    <!-- Conteúdo -->
+    <!-- ConteÃºdo -->
 </Frame>
 ```
 
 ---
 
-## ?? Responsividade
+## ğŸ“± Responsividade
 
-### Breakpoints
+### ğŸ”¢ Breakpoints
+
 ```
 Small (Phone): < 600px
-Medium (Tablet): 600px - 900px
+Medium (Tablet): 600px â€“ 900px
 Large (Desktop): > 900px
 ```
 
-### Adaptações
-- **Phone**: 3-4 colunas de pictogramas
-- **Tablet**: 4-6 colunas de pictogramas
-- **Desktop**: 6-8 colunas de pictogramas
+### âš™ï¸ AdaptaÃ§Ãµes
+
+* **Phone**: 3â€“4 colunas de pictogramas
+* **Tablet**: 4â€“6 colunas de pictogramas
+* **Desktop**: 6â€“8 colunas de pictogramas
 
 ---
 
-## ?? Inspiração de Design
+## ğŸŒˆ InspiraÃ§Ã£o de Design
 
 O design system foi inspirado em:
-- **Material Design 3** (Google) - Hierarquia e componentes
-- **Apple Human Interface Guidelines** - Clareza e acessibilidade
-- **Autism Accessibility Guidelines** - Princípios para TEA
-- **WCAG 2.1** - Padrões de acessibilidade
+
+* **Material Design 3** (Google) â€“ Hierarquia e componentes
+* **Apple Human Interface Guidelines** â€“ Clareza e acessibilidade
+* **Autism Accessibility Guidelines** â€“ PrincÃ­pios para TEA
+* **WCAG 2.1** â€“ PadrÃµes de acessibilidade
 
 ---
 
-## ?? Notas Finais
+## ğŸ Notas Finais
 
 Este design system garante:
-- ? **Consistência** em toda a aplicação
-- ? **Escalabilidade** para futuras funcionalidades
-- ? **Acessibilidade** para crianças com TEA
-- ? **Profissionalismo** visual
-- ? **Manutenibilidade** do código
 
-**Desenvolvido com ?? e atenção aos detalhes para Luiza**
+* ğŸ¨ **ConsistÃªncia** em toda a aplicaÃ§Ã£o
+* âš™ï¸ **Escalabilidade** para futuras funcionalidades
+* â™¿ **Acessibilidade** para crianÃ§as com TEA
+* ğŸ’¼ **Profissionalismo** visual
+* ğŸ§© **Manutenibilidade** do cÃ³digo
 
-*Versão 2.0 - Design Profissional - Janeiro 2025*
+**Desenvolvido com â¤ï¸ e atenÃ§Ã£o aos detalhes para Luiza**
