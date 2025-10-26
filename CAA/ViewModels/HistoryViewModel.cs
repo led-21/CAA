@@ -8,41 +8,41 @@ namespace CAA.ViewModels;
 
 public partial class HistoryViewModel : ObservableObject
 {
- private readonly ICommunicationDataService _dataService;
+    private readonly ICommunicationDataService _dataService;
 
-   [ObservableProperty]
-   public ObservableCollection<CommunicationPhrase> historyCommunications = new();
+    [ObservableProperty]
+    public ObservableCollection<CommunicationPhrase> historyCommunications = new();
 
- [ObservableProperty]
+    [ObservableProperty]
     public bool isLoading = false;
 
-  public HistoryViewModel(ICommunicationDataService dataService)
+    public HistoryViewModel(ICommunicationDataService dataService)
     {
-   _dataService = dataService;
- }
+        _dataService = dataService;
+    }
 
     [RelayCommand]
- public async Task LoadHistory()
+    public async Task LoadHistory()
     {
-     try
-    {
-    IsLoading = true;
-    var history = await _dataService.GetHistoryAsync();
-      HistoryCommunications = new ObservableCollection<CommunicationPhrase>(history);
-      }
-      catch (Exception ex)
-    {
- System.Diagnostics.Debug.WriteLine($"Erro ao carregar histórico: {ex.Message}");
-  }
-    finally
-      {
-    IsLoading = false;
-      }
-  }
+        try
+        {
+            IsLoading = true;
+            var history = await _dataService.GetHistoryAsync();
+            HistoryCommunications = new ObservableCollection<CommunicationPhrase>(history);
+        }
+        catch (Exception ex)
+        {
+            System.Diagnostics.Debug.WriteLine($"Erro ao carregar histórico: {ex.Message}");
+        }
+        finally
+        {
+            IsLoading = false;
+        }
+    }
 
     [RelayCommand]
-  public async Task GoBack()
+    public async Task GoBack()
     {
-   await Shell.Current.GoToAsync("..");
+        await Shell.Current.GoToAsync("//CommunicationPage", animate: false);
     }
 }

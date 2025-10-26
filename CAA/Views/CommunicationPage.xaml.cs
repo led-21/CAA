@@ -4,18 +4,18 @@ using CAA.ViewModels;
 
 public partial class CommunicationPage : ContentPage
 {
-   public CommunicationPage(CommunicationViewModel viewModel)
- {
-    InitializeComponent();
-   BindingContext = viewModel;
+    public CommunicationPage(CommunicationViewModel viewModel)
+    {
+        InitializeComponent();
+        BindingContext = viewModel;
     }
 
-   protected override async void OnAppearing()
+    protected override async void OnAppearing()
     {
-base.OnAppearing();
+        base.OnAppearing();
         if (BindingContext is CommunicationViewModel vm)
         {
-      await vm.LoadCategoriesCommand.ExecuteAsync(null);
-   }
-  }
+            await vm.LoadCategoriesCommand.ExecuteAsync(null);
+        }
+    }
 }
