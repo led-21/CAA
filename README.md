@@ -26,12 +26,6 @@ O **CAA** (Comunicação Alternativa e Aumentativa) é um aplicativo desenvolvid
 3. Clique em "Falar" para que o aplicativo vocalize a frase.
 4. Utilize o botão "Limpar" para reiniciar a frase.
 
-## Imagem da tela
-
-Abaixo está uma captura de tela demonstrando o funcionamento do aplicativo:
-
-![Tela do aplicativo](image1)
-
 ## Instalação
 
 > _Adicione aqui instruções de instalação, dependências e execução do projeto conforme sua stack (React, Node, etc)._
